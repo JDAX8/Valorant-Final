@@ -1,0 +1,305 @@
+@font-face {
+    font-family:Erda;
+    src: url(Valorant.ttf.ttf);
+
+}
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.product-card {
+	margin-top: 100px;
+    display: flex;
+    padding: 16px;
+    max-width: 300px;
+    cursor: pointer;
+	margin-right: 200px;
+}
+
+.product-card img {
+	border-radius: 100px;
+    border: 10px solid #93000C;
+	width: 500px;
+	height: 300px;
+    margin-right: 16px;
+	
+}
+
+#pcontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+	overflow-x:scroll;
+
+}
+ ::-webkit-scrollbar{
+    width: 7px;
+    background: #93000c6e;
+    border-radius: 5px;
+    border-right: #93000C;
+}
+
+
+
+body {
+	background: url(Fondi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+	font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+    height: 10%;
+	margin: auto;
+}
+.cuadro{
+    
+    font-family: erda;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;   
+    word-spacing: 10px;
+    padding: 15px;
+    height: 80px;
+    border: 1px black;
+    background-color:#FF4655;
+    mix-blend-mode: normal; 
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+    font-family: erda;
+}
+
+header {
+	padding: 30px 0;
+}
+
+header .contenedor {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .logotipo {
+	font-family: 'Bebas Neue', cursive;
+	font-weight: normal;
+	color: var(--rojo);
+	font-size: 40px;
+}
+
+header nav a {
+	color: #AAA;
+	text-decoration: none;
+	margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+	color: #FFF;
+}
+.M
+{
+    width: 206px;
+    height: 70px;
+    left: 753px;
+    top: 20 5px;
+    margin: 0 auto;
+
+    font-family: erda;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+
+    color: #000000;
+
+}
+.container
+{
+    margin-top: -10%;
+    width: 100%;
+    padding: 20px 0;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    text-decoration: none;
+ }
+
+ .im1
+ {
+     
+    width: 467px;
+    height: 264px;
+
+    margin-top: 70%;
+    margin-left: 1%;
+
+    border: 10px solid #93000C;
+    border-radius: 50px;
+    text-decoration: none;
+ }
+ .name 
+{
+    text-decoration: none;
+    margin-left: 40%;
+    font-family: erda;
+    margin-top: 5%;
+        color:#FF4655;
+    }
+    .name2
+{
+        margin-left: 30%;
+        font-family: erda;
+        margin-top: 5%;
+        color:#FF4655;
+        text-decoration: none;
+    }
+    .p{
+        margin-top: 4%;
+    }
+
+ @media screen and (max-width: 800px){
+	 
+ }
+ .Ra
+{
+    width: 50%;
+    height: 100%;
+
+    border-radius: 500px;
+
+}
+.parrafo{
+    z-index: 1;
+    width: 60%;
+    height: auto;
+    padding: 2% 2%;
+    font-size: 100%;
+    margin-left: 20%;
+    margin-top: 1%;
+    line-height: 2;
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #FFF;
+    background-color: #FF4655;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
+
+}
+.parrafo img{
+    border-radius: 5%;
+    float: left;
+    margin-right: 2%;
+}
+.M
+{
+
+    width: 206px;
+    height: 70px;
+    left: 753px;
+    top: 20 5px;
+    margin: 0 auto;
+    
+    font-family: erda;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 400%;
+    line-height: 70px;
+    text-align: center;
+
+     color: white;
+}
+.boton{
+    background-color: #FF4655;
+    border: none;
+    margin-left: 90%;
+    cursor: pointer;
+
+}
+.boton:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+ @media screen and (max-width: 800px) {
+	header .logotipo {
+		margin-bottom: 10px;
+		font-size: 30px;
+	}
+
+	header .contenedor 
+    {
+		flex-direction: column;
+		text-align: center;
+    }
+
+
+	.contp .M .im1
+    {
+		max-width: 100%;
+	}
+    .parrafo .Ra
+    {
+		max-width: 100%;
+	}
+ }
+
+ /* mapa */
+
+ 
+ button {
+    background-color: #ffffff00;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 25px;
+  }
+  
+  .modal-container {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;  
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.3s ease;
+  }
+  
+  .show {
+    pointer-events: auto;
+    opacity: 1;
+  }
+  
+  .modal {
+    background-color: #fff;
+    width: 600px;
+    max-width: 100%;
+    padding: 30px 50px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .modal h1 {
+    margin: 0;
+  }
+  
+  .modal p {
+    opacity: 0.7;
+    font-size: 14px;
+  }
