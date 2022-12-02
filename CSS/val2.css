@@ -12,42 +12,39 @@
 }
 
 body {
-    
-	background: url(Fondi2.png);
-    background-color: #393939;
+	background: url(../IMG/Fondi.png);
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-position-y: -100px;
 
 	font-family: 'Open Sans', sans-serif;
 }
 
 .contenedor {
-	width: 90%; 
+	width: 90%;
 	margin: auto;
 }
 .cuadro{
     
-    font-family: erda;
+    font-family: 'VALORANT';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 33px;   
     word-spacing: 10px;
-    width: 150;
-    padding: 15px;
+    width: 800px;
     height: 80px;
     border: 1px black;
     background-color:#FF4655;
     mix-blend-mode: normal; 
-    
+    padding: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
-    font-family: erda;
+    font-family: Valorant;
 }
 
 header {
@@ -79,81 +76,54 @@ header nav a.activo {
 }
 .Ra
 {
-    width: 50%;
-    height: 100%;
+    width: 150px;
+    height: 448px;
 
+    border: 10px solid #93000C;
     border-radius: 500px;
 
 }
 .parrafo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
     z-index: 1;
-    width: 60%;
-    height: auto;
-    padding: 2% 2%;
-    font-size: 100%;
-    margin-left: 20%;
-    margin-top: 1%;
+    width: 1240px;
+    height: 500px;
+    padding: 20px 20px;
+    font-size: 25px;
+    margin-left: 300px;
+    margin-top: 250px;
     line-height: 2;
     text-align: justify;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Valorant;
     color: #FFF;
     background-color: #FF4655;
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.25);
 
 }
 .parrafo img{
-    border-radius: 5%;
+    border-radius: 5px;
     float: left;
-    margin-right: 2%;
+    margin-right: 50px;
 }
 .M
 {
-
+    position: absolute;
     width: 206px;
     height: 70px;
     left: 753px;
     top: 20 5px;
-    margin: 0 auto;
-    
-    font-family: erda;
+
+    font-family: 'VALORANT';
     font-style: normal;
     font-weight: 400;
-    font-size: 400%;
+    font-size: 64px;
     line-height: 70px;
     text-align: center;
+    margin-top: 50px;
 
-     color: white;
-}
-.boton{
-    background-color: #FF4655;
-    border: none;
-    margin-left: 90%;
-    cursor: pointer;
+    color: #000000;
 
 }
-.boton:hover {
-    background-color: rgba(0, 0, 0, 0.25);
-}
-
- @media screen and (max-width: 800px) {
-	header .logotipo {
-		margin-bottom: 10px;
-		font-size: 30px;
-	}
-
-	header .contenedor 
-    {
-		flex-direction: column;
-		text-align: center;
-    }
-
-
-	.contp .M .im1
-    {
-		max-width: 100%;
-	}
-    .parrafo .Ra
-    {
-		max-width: 100%;
-	}
- }
